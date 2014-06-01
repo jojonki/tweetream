@@ -27,7 +27,8 @@ module.exports = {
 } 
 ```
 1. just do it!
-```
+ 
+ ```
 $ npm start
 ```
 
