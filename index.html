@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script type='text/javascript' src='app.js'></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form>
+  <input id="filter" type="text" name="URL" value="" size="25" maxlength="30">
+  <input type="button" value="filter" onClick="showStream($('#filter').val())">
+</form>
+<hr>
+
+<table id="tweet_table">
+  <tbody>
+  </tbody>
+</table>
+
+</body>
+</html>

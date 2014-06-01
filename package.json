@@ -1,0 +1,13 @@
+{
+  "name": "nw-demo",
+  "main": "index.html",
+  "scripts": {
+    "start": "node_modules/nodewebkit/bin/nodewebkit"
+  },
+  "window": {
+    "title" : "jonki twitter",
+    "width": 800,
+    "height": 600,
+    "toolbar": false
+  }
+}

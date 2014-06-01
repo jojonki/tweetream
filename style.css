@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+#tweet_table{
+  width:100%;
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+#tweet_table td{
+  height: 64px;
+  padding: 4px;
+  color: #fafafa;
+  background-color: #222222;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* user profile image */
+#tweet_table td:nth-child(1) {
+  width: 64px;
+}
+
+#tweet_table img{
+  width: 64px;
+  height: 64px;
+}
+
+.date {
+  font-size: xx-small;
+  color: #aaaaaa;
+}
+
+.user_screenname {
+  font-size: xx-small;
+  color: #aaaaaa;
+  padding-left: 10px;
+}
